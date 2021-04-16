@@ -43,10 +43,10 @@ app.use(
   })
 );
 
-app.use('/api/user', userRoutes);
-app.use('/api/voitures', voituresRoutes);
-app.use('/api/products', productsRoutes);
-app.use('/api/purchase', purchaseRoutes);
+app.use('/api/louvreuse/user', userRoutes);
+app.use('/api/louvreuse/voitures', voituresRoutes);
+app.use('/api//louvreuse/products', productsRoutes);
+app.use('/api//louvreuse/purchase', purchaseRoutes);
 
 
 module.exports = app;
