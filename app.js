@@ -21,7 +21,7 @@ app.use(fileupload({
 }));
 app.use(express.json());
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://v2.piecedecompteur.fr/chezlouvreuse/#/"],
     methods: ["GET", "POST", "DELETE"],
     credentials: true
 }));
