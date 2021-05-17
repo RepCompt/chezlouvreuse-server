@@ -45,8 +45,8 @@ app.use(
 
 app.use('/api/louvreuse/user', userRoutes);
 app.use('/api/louvreuse/voitures', voituresRoutes);
-app.use('/api//louvreuse/products', productsRoutes);
-app.use('/api//louvreuse/purchase', purchaseRoutes);
+app.use('/api/louvreuse/products', productsRoutes);
+app.use('/api/louvreuse/purchase', purchaseRoutes);
 
 
 module.exports = app;
